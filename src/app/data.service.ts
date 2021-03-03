@@ -9,7 +9,6 @@ export class DataService {
 
   constructor(router: Router) { 
   this.router = router;
-  this.artikel.push(new Artikel("Fußball", 10));
   }
 
 }

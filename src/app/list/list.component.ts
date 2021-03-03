@@ -9,13 +9,9 @@ import { DataService } from '../data.service';
 })
 export class ListComponent implements OnInit {
 
-  constructor(private dataService: DataService) { }
-
-  ngOnInit() {
+  constructor(private dataService: DataService) { 
   }
-
-  get artikel(): Artikel[] {
-    return this.dataService.artikel;
+  ngOnInit() {
   }
 
 }
